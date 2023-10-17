@@ -30,3 +30,16 @@ Only works on open access files. ("Anyone who has a link can View")
 Cannot download more than 50 files into a single folder.
 If you have access to the source file, you can consider using tar/zip to make it a single file to work around this limitation.
 ```
+## UNZIP
+- Install
+  ```
+  sudo apt-get install unzip
+  ```
+- How to use
+  ```
+  unzip file.zip -d destination_folder
+  ```
+- If you want to extract to a directory with the same name as the zip in your current working directory, you can simply do:
+  ```
+  unzip file.zip
+  ```
