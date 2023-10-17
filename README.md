@@ -1,7 +1,7 @@
-# ubuntu
+# UBUNTU
 Note commands when work
 
-## Download from Google Drive
+### Download from Google Drive
 [Reference](https://stackoverflow.com/questions/25010369/wget-curl-large-file-from-google-drive/50670037#50670037)
 - Install it with the following command:
 ```pip install gdown```
@@ -30,7 +30,7 @@ Only works on open access files. ("Anyone who has a link can View")
 Cannot download more than 50 files into a single folder.
 If you have access to the source file, you can consider using tar/zip to make it a single file to work around this limitation.
 ```
-## UNZIP
+### Unzip
 - Install
   ```
   sudo apt-get install unzip
@@ -43,7 +43,7 @@ If you have access to the source file, you can consider using tar/zip to make it
   ```
   unzip file.zip
   ```
-## ZIP
+### Zip
 - Install
   ```
   sudo apt-get install zip
@@ -56,7 +56,7 @@ If you have access to the source file, you can consider using tar/zip to make it
   ```
   zip -r filename.zip foldername-need-to-zip
   ```
-## COPY/CUT
+### Copy/Cut
 - Copy file/folder
   - By using -i for interactive you will be asked if you would like to replace the file:  
   ```cp -i /home/levan/kdenlive/untitelds.mpg /media/sda3/SkyDrive/```
