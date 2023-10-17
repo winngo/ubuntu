@@ -15,7 +15,7 @@ Note commands when work
 - Example: to download the readme file from this directory
 
 ```
-gdown https://drive.google.com/uc?id=0B7EVK8r0v71pOXBhSUdJWU1MYUk
+  gdown https://drive.google.com/uc?id=0B7EVK8r0v71pOXBhSUdJWU1MYUk
 ```
 - The file_id should look something like 0Bz8a_Dbh9QhbNU3SGlFaDg. You can find this ID by right-clicking on the file of interest, and selecting Get link. As of November 2021, this link will be of the form:
 ```
@@ -58,20 +58,16 @@ If you have access to the source file, you can consider using tar/zip to make it
   ```
 ## COPY/CUT
 - Copy file/folder
-  ```
-  By using -i for interactive you will be asked if you would like to replace the file:  
-  cp -i /home/levan/kdenlive/untitelds.mpg /media/sda3/SkyDrive/  
-  or you can use -b to create a backup of your file:  
-  cp -b /home/levan/kdenlive/untitelds.mpg /media/sda3/SkyDrive
-  Same as the above:  
-  cp (-i or -b) /media/sda3/SkyDrive/untitelds.mpg /home/levan/kdenlive
-  Use -R for recursive and -i for interactive:  
-  cp -Ri ~/MyFolder /sda3/
-  ```
+  - By using -i for interactive you will be asked if you would like to replace the file:  
+  ```cp -i /home/levan/kdenlive/untitelds.mpg /media/sda3/SkyDrive/```
+  - or you can use -b to create a backup of your file:  
+  ```cp -b /home/levan/kdenlive/untitelds.mpg /media/sda3/SkyDrive```
+  - Same as the above:  
+  ```cp (-i or -b) /media/sda3/SkyDrive/untitelds.mpg /home/levan/kdenlive```
+  - Use -R for recursive and -i for interactive:  
+  ```cp -Ri ~/MyFolder /sda3/```
 - Move file/folder
-  ```
-  This last one can be done via the mv command, move is like cutting:
-  mv -i ~/MyFile ~/OtherFolder/MyFile
-  if you want to move a directory, use:  
-  mv -Ri ~/MyDirectory ~/OtherDirectory/
-  ```
+  - This last one can be done via the mv command, move is like cutting:
+  ```mv -i ~/MyFile ~/OtherFolder/MyFile```
+  - if you want to move a directory, use:  
+  ```mv -Ri ~/MyDirectory ~/OtherDirectory/```
