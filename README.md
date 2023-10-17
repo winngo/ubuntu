@@ -1,7 +1,8 @@
 # ubuntu
 Note commands when work
 
-## [Download from Google Drive](https://stackoverflow.com/questions/25010369/wget-curl-large-file-from-google-drive/50670037#50670037)
+## Download from Google Drive
+[Reference](https://stackoverflow.com/questions/25010369/wget-curl-large-file-from-google-drive/50670037#50670037)
 - Install it with the following command:
 ```pip install gdown```
 - After that, you can download any file from Google Drive by running one of these commands:
