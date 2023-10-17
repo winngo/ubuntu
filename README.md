@@ -43,3 +43,16 @@ If you have access to the source file, you can consider using tar/zip to make it
   ```
   unzip file.zip
   ```
+## ZIP
+- Install
+  ```
+  sudo apt-get install zip
+  ```
+- Zip file
+  ```
+  zip filename.zip file-need-to-zip
+  ```
+- Zip folder
+  ```
+  zip -r filename.zip foldername-need-to-zip
+  ```
