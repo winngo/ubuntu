@@ -56,3 +56,22 @@ If you have access to the source file, you can consider using tar/zip to make it
   ```
   zip -r filename.zip foldername-need-to-zip
   ```
+## COPY/CUT
+- Copy file/folder
+  ```
+  By using -i for interactive you will be asked if you would like to replace the file:  
+  cp -i /home/levan/kdenlive/untitelds.mpg /media/sda3/SkyDrive/  
+  or you can use -b to create a backup of your file:  
+  cp -b /home/levan/kdenlive/untitelds.mpg /media/sda3/SkyDrive
+  Same as the above:  
+  cp (-i or -b) /media/sda3/SkyDrive/untitelds.mpg /home/levan/kdenlive
+  Use -R for recursive and -i for interactive:  
+  cp -Ri ~/MyFolder /sda3/
+  ```
+- Move file/folder
+  ```
+  This last one can be done via the mv command, move is like cutting:
+  mv -i ~/MyFile ~/OtherFolder/MyFile
+  if you want to move a directory, use:  
+  mv -Ri ~/MyDirectory ~/OtherDirectory/
+  ```
