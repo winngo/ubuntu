@@ -1,6 +1,13 @@
 # UBUNTU
 Note commands when work
 
+### Update/Upgrade
+```
+  sudo apt-get update
+  sudo apt-get upgrade  #Optional
+  sudo apt install python3-pip
+```
+
 ### Download from Google Drive
 [Reference](https://stackoverflow.com/questions/25010369/wget-curl-large-file-from-google-drive/50670037#50670037)
 - Install it with the following command:
