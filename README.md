@@ -5,7 +5,7 @@ Note commands when work
 - Install it with the following command:
 ```pip install gdown```
 - After that, you can download any file from Google Drive by running one of these commands:
-  ```
+```
   gdown https://drive.google.com/uc?id=<file_id>  # for files
   gdown <file_id>                                 # alternative format
   gdown --folder https://drive.google.com/drive/folders/<file_id>  # for folders
@@ -13,7 +13,9 @@ Note commands when work
 ```
 - Example: to download the readme file from this directory
 
-```gdown https://drive.google.com/uc?id=0B7EVK8r0v71pOXBhSUdJWU1MYUk```
+```
+gdown https://drive.google.com/uc?id=0B7EVK8r0v71pOXBhSUdJWU1MYUk
+```
 - The file_id should look something like 0Bz8a_Dbh9QhbNU3SGlFaDg. You can find this ID by right-clicking on the file of interest, and selecting Get link. As of November 2021, this link will be of the form:
 ```
    # Files
